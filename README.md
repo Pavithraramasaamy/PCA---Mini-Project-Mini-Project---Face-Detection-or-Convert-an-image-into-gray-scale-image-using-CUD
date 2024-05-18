@@ -3,12 +3,19 @@
 The aim of this project is to demonstrate how to convert an image to grayscale using CUDA programming without relying on the OpenCV library. It serves as an example of GPU-accelerated image processing using CUDA.
 ### Procedure:
 1. Load the input image using the stb_image library.
+2. 
 2.Allocate memory on the GPU for the input and output image buffers.
+
 3.Copy the input image data from the CPU to the GPU.
+
 4.Define a CUDA kernel function that performs the grayscale conversion on each pixel of the image.
+
 5.Launch the CUDA kernel with appropriate grid and block dimensions.
+
 6.Copy the resulting grayscale image data from the GPU back to the CPU.
+
 7.Save the grayscale image using the stb_image_write library.
+
 8.Clean up allocated memory.
 
 ### Program:
